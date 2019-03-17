@@ -1,0 +1,377 @@
+@media(max-width:1199.98px) {
+    .navbar .nav-item{
+        margin-right: 5px;
+    }
+    .about{
+        background: url(../images/laptop.png) no-repeat 320px 222px;
+    }
+    .team-job{
+        text-align: center;
+    }
+    .hiring{
+        margin: 0 auto;
+    }
+    .name{
+        text-align: center;
+    }
+    .member{
+        margin-bottom: 50px;
+        margin: 0 auto 50px;
+    }
+    .title-2{
+        margin-bottom: 104px !important;
+    }
+    .do-card{
+        width: 222px;
+    }
+    .span{
+        width: 87px;
+    }
+    .full-card h4{
+        font-size: 20px;
+    }
+    .blog-card{
+        width: 440px;
+    }
+    .blog-img{
+        width: 100%;
+    }
+    .blog-card-small{
+        width: 221px !important;
+    }
+    .blog-card-small .blog-img{
+        width: 221px;
+    }
+    .pro-item-1{
+        width: 280px;
+    }
+    .pro-item-2{
+        width: 280px;
+    }
+    .pro-item-3{
+        width: 280px;
+    }
+    .price-card,
+    .money{
+        width: 220px;
+    }
+    .price-about{
+        width: 200px;
+        padding-left: 0px;
+    }
+    .price-about ul{
+        padding-left: 20px;
+    }
+    .slider-item{
+        width: 109px;
+        height: 109px;
+    }
+    .form-name,
+    .form-email{
+        width: 370px;
+    }
+    .form-com{
+        width: 928px;
+    }
+    .form-link{
+        width: 128px;
+    }
+}
+
+
+@media(max-width:991.98px) {
+    /* #go{
+        display: block;
+        background: #71bf44;
+        color: #fff;
+        border: none;
+        float: right;
+        margin-top: 30px;
+        width: 45px;
+        height: 45px;
+        font-size: 23px;
+    }
+    #close{
+        display: none;
+        background: #71bf44;
+        color: #fff;
+        border: none;
+        float: right;
+        margin-top: 30px;
+        width: 45px;
+        height: 45px;
+        font-size: 23px;
+    }
+    .menu{
+        display: none;
+        background: #222222;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .menu-item{
+        margin: 0 auto;
+    } */
+    nav{
+        height: 400px;
+    }
+    .menu{
+        display: flex;
+        background: #222222;
+        width: 100%;
+        margin-bottom: 100px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+    .menu-item{
+        margin-right: 11px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about{
+        background: url(../images/laptop.png) no-repeat 260px 310px;
+    }
+    .do-card{
+        width: 262px;
+        margin: 0 auto 50px;
+    }
+    .span{
+        width: 288px;
+    }
+    .plan-item{
+        margin-bottom: 70px;
+    }
+    .full-card h4{
+        font-size: 20px;
+    }
+    .full-card{
+        height: 160px;
+        margin-top: 140px;
+    }
+    .full-link{
+        margin-top: 31px;
+    }
+    .blog-card{
+        width: 320px;
+        text-align: center;
+        padding: 0;
+        margin: 0 auto 100px;
+    }
+    .blog-img{
+        width: 320px;
+        margin: 0 auto 38px;
+    }
+    .blog-card-small{
+        width: 260px !important;
+    }
+    .blog-card-small .blog-img{
+        width: 263px;
+    }
+    .pro-item-1,
+    .pro-item-2,
+    .pro-item-3{
+        margin: 0 auto 50px;
+    }
+    .project-nav .pro-link a{
+        padding: 0 31px;
+    }
+    .price-card{
+        margin: 0 auto 100px;
+    }
+    .price-card,
+    .money{
+        width: 260px;
+    }
+    .price-about{
+        width: 240px;
+        padding-left: 0px;
+    }
+    .price-about ul{
+        padding-left: 40px;
+    }
+    .slider-item{
+        margin-bottom: 30px;
+    }
+    .form-name,
+    .form-email{
+        width: 280px;
+    }
+    .form-com{
+        width: 728px;
+    }
+    .form-link{
+        width: 128px;
+    }
+    .footer-item{
+        margin-bottom: 100px;
+    }
+    .foot-heading{
+        text-align: center;
+    }
+    .foot-line{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .foot-social{
+        text-align: center;
+    }
+    .full-card a{
+        padding: 20px 18px;
+    }
+}
+
+
+@media(max-width: 767.98px) {
+    .about{
+        background:#fff;
+    }
+    nav{
+        height: 500px;
+    }
+    .team-title{
+        margin-bottom: 50px;
+    }
+    .member{
+        width: 250px;
+    }
+    .hiring{
+        width: 260px;
+    height: 120px;
+    }
+    .do-card{
+        width: 235px;
+    }
+    .span{
+        width: 197px;
+    }
+    .full-card {
+        height: 230px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 50px;
+    }
+    .blog-card-small{
+        margin-bottom: 300px;
+    }
+    .project-nav .pro-link a{
+        padding: 0 20px;
+    }
+    .pro-item-1,
+    .pro-item-2,
+    .pro-item-3{
+        margin: 0 auto 30px;
+    }
+    .slider-item{
+        margin: 0 auto 20px;
+    }
+    .slider .carousel-control-prev{
+        left: -88px;
+    }
+    .slider .carousel-control-next{
+        right: -78px;
+    }
+    .form-name,
+    .form-email{
+        width: 100%;
+    }
+    .form-com{
+        width: 100%;
+    }
+    .form-link{
+        width: 100%;
+    }
+}
+
+@media(max-width:575.98px) {
+    header a {
+        display: inline-block;
+        margin: 0 auto 10px;
+    }
+    .about-links{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .about-link{
+        display: inline-block;
+        margin: 0 auto 10px;
+    }
+    header h1{
+        font-size: 60px;
+    }
+    nav{
+        height: 580px;
+    }
+    .hiring{
+        margin: 0 0 70px;
+    }
+    .percent{
+        margin: 0 auto 20px;
+    }
+    .skill-name,
+    .skill-subtitle{
+        text-align: center;
+    }
+    .skill-hr{
+        margin: 10px auto 20px !important;
+    }
+    .do-card{
+        width: 262px;
+    }
+    .span{
+        display: none;
+    }
+    .plan-number,
+    .plan-finish{
+        margin: 0 auto 20px;
+    }
+    .plan-item .plan-text{
+        text-align: center;
+    }
+    .blog-card{
+        width: 288px;
+    }
+    .blog-img{
+        width: 288px;
+    }
+    .project-nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .slider .carousel-control-prev{
+        left: -8px;
+    }
+    .slider .carousel-control-next{
+        right: -8px;
+    }
+    .con-card{
+        width: 285px;
+        margin: 0 auto;
+    }
+    .hello-h{
+        text-align: center;
+    }
+    form{
+        text-align: center;
+    }
+    .form-name,
+    .form-email{
+        width: 80%;
+    }
+    .form-com{
+        width: 80%;
+        height: 150px;
+    }
+    .form-link{
+        width: 128px;
+        margin-bottom: 33px;
+    }
+    .footer-item{
+        width: 70%;
+        margin: 0 auto 100px;
+    }
+}
