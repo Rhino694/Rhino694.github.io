@@ -1,0 +1,115 @@
+@media(max-width:1199.98px){
+    .winter-text p{
+        text-align: left;
+    }
+}
+@media(max-width:991.98px){
+    .w20{
+        display: none;
+    }
+    .w80{
+        width: 100%;
+    }
+    .winter-item{
+        width: 30%;
+        margin: 0 auto 20px;
+    }
+    .rooms .col-md-12{
+        display: flex;
+        justify-content: space-between;
+    }
+    .room-item{
+        width: 292px;
+    }
+    .big-room{
+        width: 100% !important;
+    }
+}
+@media(max-width:767.98px){
+    nav{
+        flex-direction: column;
+        padding: 10px 60px;
+    }
+    .logo{
+        margin-bottom: 30px;
+    }
+    .header-image{
+        padding-left: 20px;
+    }
+    header h2{
+        margin-left: 20px;
+    }
+    .winter-item{
+        width: 39%;
+        margin: 0 auto 20px;
+    }
+    .room-item{
+        width: 242px;
+    }
+    .room-text{
+        text-align: center;
+    }
+    .weather{
+        text-align: center;
+    }
+}
+@media(max-width:575.98px){
+    .main-links{
+        flex-direction: column;
+        text-align: center;
+    }
+    .main-links a{
+        margin-bottom: 7px;
+        margin-right: 0 !important;    
+    }
+    .header-image h1{
+        font-size: 70px;
+    }
+    form input{
+        margin: 0 auto 10px auto;
+    }
+    form button{
+        width: 195px;
+        margin: 0 auto;
+    }
+    .winter-item{
+        width:70%;
+        margin: 0 auto 20px;
+    }
+    .winter-text{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .winter-text p{
+        text-align: center;
+        text-shadow: 1px 1px #000;
+    }
+    .rooms .col-12{
+        flex-direction: column;
+    }
+    .room-item{
+        margin: 0 auto 36px;
+        width: 230px;
+    }
+    .weather h1{
+        font-size: 96px;
+    }
+    .new-card{
+        width: 80%;
+        margin: 0 auto 50px;
+        text-align: center !important;
+    }
+    .new-text{
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+    }
+    .f-block{
+        text-align: left;
+    }
+    .soc-item{
+        margin: 0 auto;
+    }
+}
