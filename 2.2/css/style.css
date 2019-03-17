@@ -1,0 +1,1481 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+}
+header {
+    text-align: center;
+    padding: 280px 0 70px;
+    background: #333333;
+    color: #fff;
+    overflow: hidden;
+
+}
+
+header h1 {
+    font-family: 'Yeseva One';
+    font-size: 96px;
+    margin-bottom: 46px;
+}
+
+header hr {
+    width: 200px;
+    height: 4px;
+    margin: 0 auto;
+    margin-bottom: 38px;
+    background: #5c903e;
+}
+
+header h2 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+header a {
+    border: 2px #fff solid;
+    border-radius: 6px;
+    margin-right: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 18px 44px 18px 43px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    margin-bottom: 210px;
+}
+
+header a:hover {
+    background: #fff;
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+header .down {
+    color: #fff;
+    width: 46px;
+    height: 46px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 230px auto 0 auto;
+}
+
+header i {
+    margin: 0;
+}
+nav{
+    height: 110px;
+    background-color: #222222;
+    position: sticky;
+}
+.menu{
+    display: flex;
+}
+.menu-item{
+    width: 85px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 5px solid transparent;
+    cursor: pointer;
+    padding: 0 8px;
+}
+.menu-item:hover{
+    background: #383838;
+    border-bottom: 5px solid #71bf44;
+}
+#go{
+    display: none;
+}
+#close{
+    display: none;
+}
+.menu-item a{
+    color: #ebebeb;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+}
+.menu-item i{
+    color: #ebebeb;
+    font-size: 16px;
+    font-weight: 400; 
+    margin-bottom: 8px;  
+}
+.menu-item:hover a,
+.menu-item:hover i{
+    color: #71bf44;
+    text-decoration: none;
+}
+.about{
+    padding-bottom: 197px;
+    overflow: hidden;
+    background: url(../images/laptop.png) no-repeat 370px center;
+}
+.about-item{
+    margin-top: 293px;
+}
+.about-item h2{
+    color: #71bf44;
+    font-family: "Yeseva One";
+    font-size: 48px;
+    font-weight: 400;
+}
+.about-item hr{
+    width: 100px;
+    height: 3px;
+    background-color: #71bf44;
+}
+.about-item p{
+    color: #666666;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom:33px;
+}
+.about-item p span{
+    font-family: "Open Sans ";
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.about-links{
+    width:575px;
+}
+.about-link{
+    color: #222222;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.42px;
+    padding: 20px 43px;
+    border: 3px solid #ebebeb;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.black{
+    background-color: #222222;
+    border: 3px solid #222222;
+    color: #fff;
+    padding: 20px 50px;
+}
+.green{
+    background: #71bf44;
+    border: 3px solid #71bf44;
+    padding: 20px 35px;
+}
+.about-link:hover{
+    color: #222222;
+    background: none;
+    text-decoration: none;
+}
+
+.about img{
+    position: absolute;
+    top: 1260px;
+    left: 350px;
+}
+.testimonials{
+    background: #ebebeb;
+    padding-bottom: 80px;
+}
+.quote{
+    width: 200px;
+    height: 142px;
+    background-color: #222222;
+    color: #fff;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    margin: 0 auto 58px;
+}
+.testimonials .carousel{
+    width: 76%;
+    margin: 0 auto;
+}
+
+.testimonials .carousel .carousel-item p{
+    color: #666666;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 44px;
+}
+.testimonials .carousel-indicators{
+    position: static
+}
+.testimonials .carousel-indicators li{
+    width: 100px;
+    height: 7px;
+    background-color: #cccccc;
+    border-radius: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.testimonials .carousel-indicators li.active{
+    background-color: #666666;
+  
+}
+.above-item{
+    width: 179px;
+    height: 60px;
+    background: #a7a37e;
+    border: 3px solid #666666;
+    border-radius: 10px;
+    margin:0 auto 20px;
+}
+.carousel-item h4{
+    color: #222222;
+    font-family: "Yeseva One";
+    font-size: 30px;
+    text-align: center;
+}
+.author{
+    color: #666666;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.team{
+    padding-top: 150px;
+    padding-bottom: 140px;
+    background: #fff;
+}
+.team h2{
+    color: #71bf44;
+    font-family: "Yeseva One";
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 39px;
+}
+.team hr{
+    width: 100px;
+    height: 3px;
+    background-color: #71bf44;
+    margin-bottom: 39px;
+}
+.team-title{
+    color: #666666;
+    margin-bottom: 67px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+.hiring{
+    width: 263px;
+    height: 129px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+}
+.hiring h3{
+    color: #ffffff;
+    font-family: "Yeseva One";
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.hiring .plus{
+    width: 168px;
+    height: 106px;
+    background: url(../images/hiring.png) center center no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hiring .plus i{
+    font-size:30px;
+}
+.hiring .plus i:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.team-job{
+    color: #666666;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 9px 0;
+}
+.name{
+    color: #71bf44;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.member{
+    width: 262px;
+    height: 350px;
+    opacity: 0.6;
+    background: #a7a37e;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 36px;
+}
+.member:hover{
+    opacity: 1;
+}
+.member:hover .member-hover{
+    opacity: 1;
+}
+.member-hover{
+    width: 262px;
+    height: 93px;
+    background-color: #71bf44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .6s;
+    opacity: 0;
+}
+.member-hover i{
+    font-size: 30px;
+    color: #ebebeb;
+    margin-right: 17px;
+    transition: .5s;
+}
+.member-hover i:hover{
+    color: #333333;
+}
+.skills{
+    background: #333333;
+    padding-top: 150px;
+    padding-bottom: 156px;
+}
+.skills h3{
+    color: #71bf44;
+    font-family: "Yeseva One";
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 33px;
+}
+.skills hr{
+    width: 100px;
+    height: 3px;
+    background-color: #71bf44;
+    margin-bottom: 40px;
+}
+.skill-title{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 63px;
+}
+.make-item{
+    display: flex;
+    margin-bottom: 53px;
+}
+.make-icon{
+    width: 68px;
+    height: 120px;
+    background-color: #71bf44;
+    flex-shrink: 0;
+    border-radius: 9px;
+    margin-right: 11px;
+    text-align: center;
+    border: solid 4px transparent;
+    transition: .4s;
+}
+.make-icon:hover{
+    background: none;
+    cursor: pointer;
+    border-color: #71bf44;
+}
+.make-icon:hover i{
+    color: #fff;
+}
+.make-item h4{
+    color: #71bf44;
+    font-family: "Yeseva One";
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+.make-item hr{
+    margin-bottom: 23px;
+}
+.make-item p{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+.make-icon i{
+    color: #222222;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 18px;
+}
+.percent{
+    padding-top: 0;
+    width: 90px;
+    height: 30px;
+    overflow: hidden;
+    border: 2px solid #71bf44;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-bottom: 9px;
+}
+.percent:hover p{
+    color: #fff;
+    cursor: pointer;
+}
+.percent p{
+    margin-top: -18px;
+    transition: .3s;
+    color: #71bf44;
+    font-family: "Yeseva One";
+    font-size: 45px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transform: rotate(-10deg);
+}
+.skill-name{
+    color: #71bf44;
+    font-family: "Yeseva One";
+    font-size: 24px;
+    font-weight: 400;
+}
+.skill-hr{
+    margin: 0px 0 9px 0 !important;
+}
+.skill-subtitle{
+    margin: 0;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 81px;
+}
+.doing{
+    padding-top: 150px;
+    padding-bottom: 153px;
+}
+.doing h2{
+    color: #71bf44;
+    font-family: "Yeseva One";
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 39px;
+}
+.doing hr{
+    width: 100px;
+    height: 3px;
+    background-color: #71bf44;
+    margin-bottom: 29px;
+}
+.do-title{
+    color: #666666;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 37px;
+}
+.do-card{
+    border-radius: 10px;
+    width: 262px;
+    height: 364px;
+    background-color: #ebebeb;
+    transition: .6s;
+}
+.do-card:hover{
+    background-color: #71bf44;
+    cursor: pointer;
+    margin-top: -10px;
+}
+.do-card:hover .do-message{
+    background:url(../images/message2.png);
+}
+.do-card:hover .do-go{
+    background: url(../images/do-go-2.png);
+}
+.do-card:hover .do-text{
+    color: #222222;
+}
+.do-card:hover .do-text hr{
+    background: #222222;
+}
+.do-message{
+    height: 110px;
+    width: 110px;
+    background: url(../images/message.png);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.do-message i{
+    color: #ebebeb;
+    font-size: 36px;
+    font-weight: 400;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+.do-text{
+    text-align: center;
+    color: #666666;;
+}
+.do-text h4{
+    font-family: "Yeseva One";
+    font-size: 36px;
+    font-weight: 400;
+    margin: 19px 0 18px 0;
+}
+.do-text hr{
+    background-color: #666666;
+    margin: 0 auto 24px;
+}
+.do-text p{
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    padding: 0 10px;
+}
+.do-go{
+    width: 71px;
+    float: right;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/do-go.png);
+}
+.do-go i{
+    color: #ebebeb;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+.do-go i:hover,
+.do-message i:hover{
+    color: #fff;
+    cursor: pointer;
+}
+.how{
+    padding: 150px 0 160px 0;
+    background: #333333;
+}
+.how h2{
+    color: #71bf44;
+    font-family: "Yeseva One";
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 39px;
+}
+.how hr{
+    width: 100px;
+    height: 3px;
+    background-color: #71bf44;
+    margin-bottom: 40px;
+}
+.how-title{
+    color: #e4e4e4;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 86px;
+}
+.plan-number{
+    width: 70px;
+    height: 70px;
+    border: 2px dashed #71bf44;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 33px;
+    flex-shrink: 0;
+    transition: .4s;
+    /* animation: plan 1 2s; */
+}
+.plan-number:hover{
+    background: #71bf44;
+    color: #fff;
+    cursor: pointer;
+}
+.plan-number:hover p{
+    color: #fff;
+}
+.plan-number p{
+    color: #71bf44;
+    font-family: "Yeseva One";
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+    animation: color 1 6s;
+}
+.plan-text h5{
+    color: #71bf44;
+    font-family: "Yeseva One";
+    font-size: 30px;
+}
+.plan-text p{
+    color: #e4e4e4;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+.span{
+    width: 121px;
+    height: 2px;
+    border: 2px dashed #71bf44;
+    top: 35px;
+    left: 86px;
+    position: absolute;
+}
+.plan-connect{
+    display: flex;
+}
+.plan-finish{
+    width: 70px;
+    height: 70px;
+    border: 3px solid #71bf44;
+    background-color: #71bf44;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 33px;
+    cursor: pointer;
+    animation: finish 1 10s;
+}
+.plan-finish:hover i{
+    color: #fff;
+}
+.plan-finish i{
+    color: #222222;
+    font-size: 36px;
+    font-weight: 400;
+    transition: .4s;
+}
+.blog{
+    padding-top: 150px;
+    margin-bottom: 150px;
+}
+.blog h2{
+    margin-bottom: 30px;
+    color: #71bf44;
+    font-family: "Yeseva One";
+    font-size: 48px;
+    font-weight: 400;
+}
+.blog hr{
+    width: 103px;
+    height: 6px;
+    background-color: #71bf44;
+    margin-bottom: 40px;
+}
+.blog-title{
+    color: #666666;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 66px;
+}
+.blog-card-small{
+    width: 263px !important;
+    height: 120px;
+}
+.blog-card-small .blog-img{
+    width: 263px ;
+}
+.blog-card{
+    width: 555px;
+    margin-bottom: 150px;
+}
+.blog-img:hover{
+    background: #141414;
+}
+.blog-card:hover .blog-topic{
+    color: #71bf44
+}
+.blog-card:hover .blog-hover{
+    opacity: 1;
+}
+.blog-img{
+    width: 555px;
+    height: 120px;
+    border-radius: 10px;
+    margin-bottom: 38px;
+    background: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.blog-text h3{
+    color: #362f2d;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.date{
+    color: #999999;
+    font-family: "Open Sans";
+    font-size: 12px;
+    margin-bottom: 18px;
+}
+.blog-about{
+    color: #666666;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+}
+.blog-hover{
+    width: 193px;
+    height: 44px;
+    background-color: #71bf44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 0;
+    transition: .5s;
+}
+.blog-hover a{
+    color: #222222;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-right: 5px;
+    text-decoration: none;
+} 
+.blog-hover a:hover{
+    color:#fff;
+}
+.blog-hover span{
+    font-family: "Yeseva One";
+    font-weight: 400;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.blog-hover i{
+    font-size: 10px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.love,
+.wrote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.full-card{
+    border-radius: 10px;
+    padding-top: 36px;
+    height: 133px;
+    border: 1px solid #cccccc;
+    background-color: #ebebeb;
+    padding-left:39px;
+}
+.full-card h4{
+    color: #222222;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.full-subtitle{
+    color: #666666;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+}
+.full-link{
+    margin-top: 14px;
+}
+.full-card a{
+    color: #222222;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    vertical-align: bottom;
+    padding: 20px 19px;
+    background-color: #71bf44;
+    border-radius: 10px;
+    border: 3px solid transparent;
+    transition: .4s;
+}
+.full-card a:hover{
+    background: none;
+    border-color: #71bf44;
+}
+.projects{
+    padding-bottom: 150px;
+}
+.projects h2{
+    color: #71bf44;
+    font-family: "Yeseva One";
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 38px;
+}
+.project-title{
+    color: #666666;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 43px;
+}
+.projects hr{
+    width: 100px;
+    height: 4px;
+    background-color: #71bf44;
+    margin-bottom: 40px;
+}
+.project-nav{
+    display: flex;
+    margin-bottom: 47px;
+}
+.project-nav .pro-link a{
+    padding: 0px 40px;
+    border-left: 1px solid #666666;
+    color: #666666;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.pro-link{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .7s;
+}
+.pro-link:hover{
+    background: url(../images/pro-link.png) no-repeat center center;
+}
+.pro-link:hover a{
+    color: #222222
+}
+.pro-item-1,
+.pro-item-2,
+.pro-item-3{
+    width: 360px;
+    height: 570px;
+    background: #333333;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.pro-item-1:hover,
+.pro-item-2:hover,
+.pro-item-3:hover{
+    background: #000;
+}
+.pro-item-1:hover .pro-hover,
+.pro-item-2:hover .pro-hover,
+.pro-item-3:hover .pro-hover{
+    opacity: 1;
+}
+.pro-hover{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    opacity: 0;
+    transition: .6s;
+}
+.pro-plus{
+    width: 50px;
+    height: 50px;
+    background-color: #71bf44;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin: auto auto;
+    justify-content: center;
+}
+.pro-plus i{
+    color: #fff;
+    font-size: 33px;
+}
+.pro-about{
+    width: 270px;
+    height: 41px;
+    background-color: #71bf44;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.pro-icon{
+    display: flex;
+}
+.pro-about p{
+    color: #222222;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.pro-about span{
+    color: #222222;
+    font-family: "Yeseva One";
+    font-weight: 400;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.pro-about i{
+    color: #222222;
+    font-size: 10px;
+}
+.watch{
+    background-color: rgb(0, 0, 0);
+    padding: 158px  0  150px 0;
+    text-align: center;
+    color: #e4e4e4;
+}
+.watch i{
+    font-size: 72px;
+    margin-bottom: 1px;
+    display: inline-block;
+}
+.watch i:hover{
+    color: lightgrey;
+    cursor: pointer;
+}
+.watch a{
+    color: #e4e4e4;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .4s;
+}
+.watch a:hover{
+    color: #71bf44;
+}
+.price{
+    padding: 150px 0;
+}
+.price h2{
+    color: #71bf44;
+    font-family: "Yeseva One";
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 38px;
+}
+.price hr{
+    width: 100px;
+    height: 4px;
+    background-color: #71bf44;
+    margin-bottom: 39px;
+}
+.price-title{
+    color: #666666;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 72px;
+}
+.price-card{
+    width: 262px;
+}
+.price-card:hover .price-link{
+    background: #71bf44;
+}
+.money{
+    border-radius: 11px;
+    width: 262px;
+    height: 301px;
+    background-color: #222222;
+    text-align: center;
+    color: #ccc;
+    transition: .4s;
+    cursor: pointer;
+}
+.money:hover{
+    background: #71bf44;
+    color: #222222; 
+}
+.money:hover .money-icon{
+    background: url(../images/money-hover.png);
+    color: #71bf44
+}
+.money:hover hr{
+    background: #222;
+}
+.money-icon{
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    background: url(../images/money-up.png) no-repeat center center;
+    margin-bottom: 23px;
+    color: #222222;
+}
+.money-icon i{
+    margin-top: -10px;
+    margin-left: -10px;
+    font-size: 36px;
+}
+.money h3{
+    font-family: "Yeseva One";
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+.money hr{
+    margin: 0 auto 2px;
+    background-color: #ccc;
+}
+.money h4{
+    font-family: "Yeseva One";
+    font-size: 72px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: -1.8px;
+}
+.price-about{
+    padding: 34px 0px 30px 0px;
+    margin: 0 auto;
+    width: 242px;
+    border: 1px solid #cccccc;
+    background-color: #ebebeb;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    text-align: center;
+}
+.price-about ul{
+    list-style: none;
+    margin-bottom: 39px;
+    text-align-last: left;
+    padding-left: 40px;
+}
+.price-about ul li i{
+    color: #444444;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 18px;
+}
+.price-about ul li{
+    color: #444444;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.price-link{
+    color: #e4e4e4;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 22px 31px 20px 32px;
+    background-color: #222222;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .3s;
+}
+.price-link:hover{
+    text-decoration: none;
+    color: #e4e4e4;
+}
+.bestseller{
+    width: 120px;
+    height: 47px;
+    background: #71bf44;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0 auto;
+}
+.bestseller p{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 47px;
+}
+.bestseller:hover{
+    cursor: pointer;
+}
+.slider{
+    border: 1px solid #ebebeb;
+    background-color: #f8f8f8;
+    padding: 90px 0;
+}
+.slider-item{
+    background: #333333;
+    width: 120px;
+    height: 120px;
+    border: 1px solid #dddddd;
+}
+.slider .carousel{
+    width: 75%;
+    margin: 0 auto;
+}
+.slider .carousel-item{
+    width: 100%;
+}
+.slider .carousel-control-prev,
+.slider .carousel-control-next{
+    color: #000;
+    position: absolute;
+}
+.slider .carousel-control-prev{
+    left: -118px;
+}
+.slider .carousel-control-next{
+    right: -108px;
+}
+.slider .carousel-control-prev i{
+    padding: 13px 15px 13px 13px;
+    border-radius:50%; 
+    border: 2px solid #cecece;
+    color: #cecece;
+    font-size: 16px;
+    font-weight: 400;
+}
+.slider .carousel-control-prev i{
+    padding: 13px 15px 13px 13px;
+    border-radius:50%; 
+    border: 2px solid #cecece;
+    color: #cecece;
+    font-size: 16px;
+    font-weight: 400;
+}
+.slider .carousel-control-next i{
+    padding: 13px 15px 13px 15px;
+    border-radius:50%; 
+    border: 2px solid #cecece;
+    color: #cecece;
+    font-size: 16px;
+    font-weight: 400;
+}
+.contact{
+    padding: 150px 0 162px 0;
+}
+.contact h2{
+    color: #71bf44;
+    font-family: "Yeseva One";
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.contact hr{
+    width: 100px;
+    height: 4px;
+    background-color: #71bf44;
+    margin-bottom: 39px;
+}
+.con-title{
+    color: #666666;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.contact-con{
+    padding: 50px 0;
+    background-color: rgba(34, 34, 34, 1);
+    margin-bottom: 59px;
+}
+.con-card{
+    padding: 0 0 50px 0;
+    border-radius: 22px;
+    width: 360px;
+    background-color: #ebebeb;
+}
+.con-icon{  
+    background: url(../images/contact-card.png) no-repeat center center;
+    background-size: cover;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.con-icon i{
+    color: #ebebeb;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: -12px;
+    margin-left: -12px;
+}
+.con-text{
+    text-align: center;
+    padding: 0 25px;
+}
+.con-text h3{
+    color: #666666;
+    font-family: "Yeseva One";
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.con-text hr{
+    width: 100px;
+    height: 4px;
+    background-color: #666666;
+    margin: 0 auto 40px;
+}
+.con-text p{
+    text-align: justify;
+    color: #666666;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 33px;
+}
+.con-text ul{
+    list-style:none;
+    text-align-last: left;
+}
+.con-text li i{
+    color: #444444;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 7px;
+}
+.con-text li{
+    color: #666666;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.hello-h{
+    color: #71bf44;
+    font-family: "Yeseva One";
+    font-size: 36px !important;
+    font-weight: 400;
+    margin-bottom: 29px;
+}
+.form-name{
+    width: 458px;
+    height: 60px;
+    border: 2px solid #e4e4e4;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    text-indent: 21px;
+    color: #71bf44;
+    font-weight: 700;
+    font-family: 'Open Sans';
+}
+.form-email{
+    /* Style for "Rounded Re" */
+    width: 458px;
+    height: 60px;
+    border: 2px solid #e4e4e4;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    text-indent: 21px;
+    color: #71bf44;
+    font-weight: 700;
+    font-family: 'Open Sans';
+}
+.form-link{
+    width: 166px;
+    height: 60px;
+    background-color: #71bf44;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 800;
+    border: none;
+    border-radius: 7px;
+    text-transform: uppercase;
+    cursor: pointer;
+    line-height: 60px;
+    border: 2px solid transparent;
+}
+.form-link:hover{
+    border-color: #71bf44;
+    background: none;
+    color: #71bf44;
+}
+.form-com{
+    width: 1118px;
+    padding-top: 10px;
+    height: 60px;
+    border: 2px solid #e4e4e4;
+    border-radius: 7px;
+    resize: none;
+    padding-left: 21px;
+    color: #71bf44;
+    font-weight: 800;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    /* font-size: 12px; */
+}
+.hello form input:focus,
+.form-com:focus{
+    border-color: #71bf44;
+    outline: none;
+}
+.hello form input::placeholder,
+.form-com::placeholder{
+    color: #e4e4e4;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+footer{
+    border-top: 10px solid #71bf44;
+}
+.footer-start{
+    padding: 137px 0 50px 0;
+    background: #222;
+}
+.foot-heading{
+    margin-bottom: 40px;
+    color: #71bf44;
+    font-family: "Yeseva One";
+    font-size: 36px;
+    font-weight: 400;
+}
+.foot-line{
+    margin-bottom: 40px;
+    width: 100px;
+    height: 3px;
+    background-color: #ebebeb;
+}
+.foot-title{
+    color: #ebebeb;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 35px;
+}
+.foot-list{
+    list-style: none;
+}
+.foot-list li i{
+    color: #71bf44;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.foot-list li{
+    color: #ebebeb;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.foot-nav li {
+    margin-bottom: 12px;
+}
+.foot-nav li a{
+    color: #ebebeb;
+    list-style: none;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+.foot-nav i{
+    color: #ebebeb;
+    font-size: 14px;
+    margin-right: 5px;
+    font-weight: 200;
+}
+.letter{
+    display: flex;
+    margin-bottom:28px;
+}
+.letter input{
+    background: none;
+    border-radius: 7px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ebebeb;
+    border-right: none;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    text-indent: 18px;
+    color: #ebebeb;
+    outline: none;
+}
+.letter input::placeholder{
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+}
+.letter button{
+    background: none;
+    border: 1px solid #ebebeb;
+    border-left: none;
+    border-top-right-radius: 7px;
+    width: 50px;
+    border-bottom-right-radius: 7px;
+    color: #ebebeb;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    outline: none;
+}
+.social-heading{
+    margin-bottom: 20px;
+}
+.social-line{
+    margin-bottom: 35px;
+}
+.foot-social i{
+    color: #ebebeb;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+.foot-social i:hover{
+    color: #71bf44;
+}
+.footer-end{
+    background-color: #000000;
+    padding: 30px 0;
+    text-align: center;
+    color: #71bf44;
+}
+.footer-end p{
+    margin: 0;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+}
