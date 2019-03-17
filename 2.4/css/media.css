@@ -1,0 +1,219 @@
+@media(max-width:1199.98px){
+    .about img{
+        top:167px;
+    }
+    .about{
+        margin-bottom: 0px;
+    }
+    .info{
+        padding: 100px 0 40px 0;
+    }
+    .info-item{
+        margin-bottom: 60px;
+    }
+    .pro-menu a{
+        font-size: 18px;
+    }
+    .pro-item img{
+        height: 323px;
+        width: 370px;
+    }
+    .pro-hover{
+        width: 370px;
+        height: 323px;
+    }
+    .blog-card{
+        width: 301px;
+        margin-bottom: 84px;
+    }
+    form input{
+        width: 156px;
+        font-size: 14px;
+    }
+    form input::placeholder,
+    form textarea{
+        font-size: 14px;
+    }
+}
+@media(max-width:991.98px){
+    .menu span{
+        display: none;
+    }
+    .menu-link{
+        margin:0 20px 20px;
+    }
+    .about img{
+        border-radius: 30%;
+    }
+    .deg180{
+        margin-top: -35px !important;
+    }
+    .comment-text p{
+        margin-top: -55px;
+    }
+    .author{
+        flex-direction: column;
+    }
+    .author-icon{
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .author-info{
+        margin-left: 0;
+    }
+    .pro-menu a{
+        display: inline;
+        margin-right: 5px;
+       text-decoration: overline
+    }
+    .pro-menu{
+        margin-bottom: 80px;
+    }
+    .pro-item img{
+        height: 303px;
+        width: 340px;
+    }
+    .pro-hover{
+        width: 340px;
+        height: 303px;
+    }
+    .ex-wall{
+        height: 100px;
+        margin-top: 5px;
+    }
+    .ex-name{
+        text-align: center !important;
+    }
+
+    .blog-card{
+        width: 331px;
+        margin-bottom: 84px;
+    }
+    form input{
+        width: 180px;
+        font-size: 14px;
+    }
+    
+}
+@media(max-width:767.98px){
+    .my-name{
+        font-size: 170px;
+    }
+    .my-surname{
+        font-size: 100px;
+    }
+    .about img{
+        top: 265px
+    }
+    .info-item{
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto 60px auto;
+    }
+    .info-icon{
+        margin: 0 auto 20px;  
+    }
+    .author{
+        margin-top: 0;
+    }
+    .pro-menu a{
+        display: inline;
+        margin-right: 5px;
+        text-decoration: overline;
+    }
+    .pro-item img{
+        height: 250px;
+        width: 250px;
+    }
+    .pro-hover{
+        width: 250px;
+        height: 250px;
+    }
+    .pro-hover h4{
+        font-size: 40px;
+    }
+    .ex-name{
+        text-align: center !important;
+        margin-bottom: 30px;
+    }
+    .blog-card{
+        width: 251px;
+        margin-bottom: 84px;
+        text-align: center;
+    }
+    form input{
+        width: 100%;
+        font-size: 18px;
+    }
+    form input::placeholder,
+    form textarea{
+        font-size: 18px;
+    }
+    .contact-con{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media(max-width:575.98px){
+    .my-name{
+        font-size: 100px;
+        margin-bottom: 29px;
+    }
+    .my-surname{
+        font-size: 50px;
+        letter-spacing: 20px;
+        margin-left: 12px;
+        margin-bottom: 20px;
+    }
+    .about-text{
+        text-align: center;
+    }
+    .about img{
+        border-radius: 30%;
+        width: 90%;
+        top: 373px;
+        display: none;
+    }
+    .about{
+        margin-bottom:30px;
+    }
+    .portfolio{
+        text-align: center;
+    }
+    .pro-item img{
+        height: 250px;
+        width: 270px;
+    }
+    .pro-hover{
+        width: 272px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 250px;
+    }
+    .blog-card{
+        width: 251px;
+        margin: 0 auto 84px;
+        margin-bottom: 84px;
+        text-align: center;
+        border-bottom: 2px solid lightgray;
+        padding-bottom: 30px;
+    }
+    .contact-con{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    form input{
+        width: 100%;
+        font-size: 14px;
+    }
+    form input::placeholder,
+    form textarea{
+        font-size: 14px;
+    }
+    .contact-con .top-heading{
+        font-size: 33px;
+    }
+    form .cv{
+        padding: 22px 16px 22px 16px;
+    }
+}
