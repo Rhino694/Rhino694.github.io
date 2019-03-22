@@ -1,0 +1,287 @@
+@media(max-width:1199.98px){
+   .f-item{
+    width: 370px;
+    margin-top: 0;
+    margin-bottom: 100px;
+   }
+   .slide-item{
+    width: 370px;
+    margin-top: 0;
+    margin-bottom: 100px;
+   }
+   .top-item{
+       margin-top: -200px;
+   }
+   .care-item{
+       padding-right: 28px;
+   }
+   .agency form input,
+   .select-items div,
+   .select-selected {
+       margin-bottom: 20px !important;
+      }
+    .world-icon{
+        width: 150px;
+        height: 150px;
+    }
+    .world-about ul li{
+        font-size: 13px;
+    }
+    .world-icon img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .brazil img{
+        width: 80px !important;
+    }
+    .down-info h4{
+        font-size: 14px;
+    }
+    .hand{
+        margin: 42px auto 0;
+    }
+    .down-text{
+        margin-top: 100px;
+    }
+    .letter input{
+        margin-top: 42px;
+    }
+    footer .col-lg-12{
+        margin-top: 60px;
+    }
+}
+@media(max-width:991.98px){
+    .nav-book{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .f-item{
+        width: 320px;
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+    .slide-item{
+        width: 320px;
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+    .top-item{
+        margin-top: -123px;
+    }
+    .agency form input{
+        margin-bottom: 20px;
+       }
+    .world-item{
+        flex-direction: column;
+        text-align: center;
+    }
+    .world-icon{
+        margin: 0 auto;
+    }
+    .world-about{
+        margin: 0 auto;
+    }
+    .brazil img{
+        width: 60px !important;
+    }
+    .num-item{
+        margin-bottom: 80px;
+        justify-content: center;
+    }
+    .numbers{ 
+        padding:117px 0 36px 0;
+    }
+    .blog-item{
+        width: 80%;
+        margin: 0 auto 50px;
+    }
+    .hand{
+        border-bottom: 10px solid #ef5b5b;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .down-text{
+        margin-top: 100px;
+        text-align: center;
+    }
+    .down-links{
+        justify-content: center;
+    }
+    .letter{
+        text-align: center;
+    }
+    .logos{
+        display: flex;
+        flex-wrap: wrap
+    }
+    .logos img{
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    .download{
+        margin-bottom: 100px;
+    }
+    footer .col-md-6{
+        margin-bottom: 60px;
+    }
+    footer{
+        /* text-align: center; */
+    }
+    footer .col-lg-12{
+        margin-top: 0px;
+    }
+}
+@media(max-width:767.98px){
+   header{
+       text-align: center;
+   }
+   nav{
+       text-align: left;
+   }
+   .f-item{
+    width: 250px;
+    margin-top: 0;
+    margin-bottom: 100px;
+    }
+    .slide-item{
+        width: 250px;
+        margin-top: 0;
+        margin-bottom: 100px;
+        }
+    .top-item{
+        margin-top: -22px;
+    }
+    .slick-item p{
+        text-align: center !important;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .slick-prev{
+        left: -13px !important;
+    }
+    .agency .slick-prev{
+        display: block !important;
+    }
+    .slick-next{
+        right: -13px !important;
+    }
+    .agency form input{
+        margin-bottom: 20px;
+       }
+    .world-about h3{
+        font-size: 20px;
+    }
+    .world-about ul li{
+        font-size: 10px;    
+        margin: 0 auto;
+    }
+    .brazil img{
+        width: 60px !important;
+    }
+    .video{
+        margin-left: 30px;
+    }
+    .feed-about{
+        width: 530px;
+    }
+    .blog-text{
+        /* padding: 0; */
+    }
+    .blog-item{
+        width: 100%;
+        margin: 0 auto 50px;
+    }
+
+}
+@media(max-width:575.98px){
+   .feature{
+       text-align: center;
+   }
+   .about{
+       text-align: left;
+   }
+   .feed-about {
+    width: 80%;
+    padding: 35px 10px 30px 10px;
+}
+
+   .top-item{
+    margin-top: 100px !important;
+   }
+   .f-item{
+       width: 280px;
+       margin: 0 auto 100px;
+   }
+   .slide-item{
+    width: 280px;
+    margin: 0 10px 100px 10px;
+}
+
+.agency form input,
+.select-items div,
+.select-selected {
+    margin-bottom: 20px !important;
+   }
+   .world-about h3{
+    font-size: 23px;
+}
+    .world-about ul li{
+        font-size: 16px;    
+        margin: 0 auto;
+    }
+    .brazil img{
+        width: 60px !important;
+    }
+    .num-item{
+      
+    }
+    .video{
+        text-align: center;
+        flex-direction: column;
+    }
+    .video{
+        margin-left: 0px;
+    }
+    .video-icon{
+        margin: 0 auto;
+    }
+    .blog-item{
+        flex-direction: column;
+        text-align: center !important;
+        margin-bottom: 100px;
+    }
+    .blog-text{
+        text-align: center;
+    }
+    .blog-info{
+        justify-content: center;
+    }
+    .date{
+        margin-right: 50px;
+    }
+    .blog-icon{
+        margin-bottom: 30px;
+        margin: 0 auto;
+    }
+    .down-links{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .android,
+    .apple{
+        margin: 0 auto 20px;
+    }
+    .letter input{
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .letter button{
+        margin-left: 0;
+    }
+    footer{
+        text-align: center;
+    }
+
+}
