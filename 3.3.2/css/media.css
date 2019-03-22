@@ -1,0 +1,169 @@
+@media(max-width:1199.98px){
+    .about-content,
+    .about-img{
+        height: 680px;
+    }
+    .about-img{
+        width: 50%;
+    }
+    .about-content{
+        width: 50%;
+    }
+    .who-we{
+        position: relative;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .services{
+        width: 100% !important;
+    }
+    .feature{
+        padding-top: 0;
+        text-align: center;
+    }
+    .page-content{
+        width: 100%;
+    }
+    .ipad img{
+        position: relative;
+        display: none;
+    }
+    .blog-item{
+        width: 219px;
+    }
+    .blog-text h6{
+        font-size: 21px;
+    }
+}
+@media(max-width:991.98px){
+    .about{
+        flex-direction: column;
+    }
+    .about-img{
+        width: 100%;
+        height: 508px;
+        background: url(../images/about-img.jpg) no-repeat center center;
+        background-size: cover;
+        margin: 0 auto;
+    }
+    .about-img img{
+        display: none;
+    }
+    .about-content{
+        width:  100%;
+    }
+    .serv-item{
+        margin-bottom: 60px;
+    }
+    .who-we p{
+        margin-bottom: 50px;
+    }
+    .apple-watch img{
+        top: -14px;
+        bottom: 0;
+        width: 200px;
+        left: 80%
+    }
+    .iphone{
+        display: none;
+    }
+    .creative-content{
+        width: 100%;
+        margin-left: 0;
+    }
+    .blog-and-card{
+        flex-direction: column-reverse
+    }
+    .main-card{
+        width: 100%;
+        height: auto;
+        padding-bottom: 90px;
+    }
+    .blog{
+        width: 100%;
+    }
+    .blog-item{
+        width: 280px;
+    }
+}
+@media(max-width:767.98px){
+    .page-content{
+        padding-right: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+    .blog-item{
+        width: 230px;
+    }
+    .info-and-form .click-here{
+        margin: 0 auto;
+    }
+    .subtitle{
+        text-align: center;
+    }
+    .info-item{
+        flex-direction: column;
+        text-align: center;
+    }
+    .info-icon{
+        margin: 0 auto;
+    }
+}
+@media(max-width:575.98px){
+    .bg-light{
+        padding: 30px 20px;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .nav-social{
+        margin-right: 0;
+    }
+    header h1{
+        font-size: 55px !important;
+    }
+    header{
+        text-align: center;
+    }
+    .about-content{
+        padding-left: 0px;
+        text-align: center;
+        padding-bottom: 100px;
+        height: auto;
+    }
+    .about-content p{
+        width: 100%;
+        padding: 10px;
+    }
+    .dark-text{
+        margin-bottom: 39px;
+    }
+    .who-we p{
+        width: 80%;
+        margin: 0 auto 50px;
+    }
+    .watch{
+        text-align: center;
+    }
+    .apple-watch{
+        position: static;
+        width: 160px;
+        margin-left: 50%;
+    }
+    .apple-watch img{
+        position: static;
+        margin-top: 77px;
+        width: 160px;
+    }
+    .creative-content{
+        text-align: center;
+    }
+    .main-card{
+        padding-left: 0;
+        text-align: center;
+    }
+    .blog-item{
+        width: 280px;
+        text-align: center;
+    }
+}
